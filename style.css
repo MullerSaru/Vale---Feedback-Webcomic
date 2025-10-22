@@ -5,6 +5,12 @@ body {
   color: white;
   overflow-x: hidden;
 }
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
 
 #comic-container {
   display: flex;
@@ -15,12 +21,13 @@ body {
 .comic-panel {
   opacity: 0;
   transform: translateX(-20px);
-  transition: opacity 1s ease-in, transform 1s ease-in;
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in;
   pointer-events: none;
   max-width: 100%;
   height: auto;
   border: 2px solid white;
   box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  user-select: none;
 }
 
 /* FILEIRA 1 - duas imagens lado a lado */
@@ -74,7 +81,7 @@ body {
 .row-full {
   display: flex;
   justify-content: center;
-  margin: 60px 0;
+  margin: 20px 0;
   width: 100%;
 }
 

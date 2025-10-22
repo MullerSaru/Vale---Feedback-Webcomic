@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+#comic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comic-panel {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+  pointer-events: none;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  user-select: none;
+}
+
+/* FILEIRA 1 - duas imagens lado a lado */
+.row-1 {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 20px 0;
+}
+
+/* FILEIRA 2 - layout específico */
+.row-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 0;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.img3 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.img4 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.img5 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.img6 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  align-self: center;
+}
+
+/* FILEIRAS 3 e 4 - 3 imagens lado a lado */
+.row-3, .row-4 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* FILEIRAS 5 em diante - imagem única */
+.row-full {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .row-1, .row-3, .row-4 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

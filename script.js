@@ -14,22 +14,22 @@ transcriptions.push(
   "Ana, sua dedicação e colaboração neste projeto fizeram toda a diferença. Sua abordagem colaborativa é inspiradora.",
   "Você demonstrou um cuidado genuíno em incluir e ouvir todos nas suas construções. E, mesmo diante de momentos desafiadores, manteve uma atitude leve, positiva e uma escuta ativa.",
   "Sua atuação foi um exemplo dos nossos comportamentos-chave 'Diálogo aberto e transparente' e 'Sentimento de Dono'. Obrigado pela parceria e comprometimento!",
-  "Tenho observado o quanto você é cuidadosa ao analisar cenários antes de tomar decisões, o que demonstra responsabilidade e comprometimento com a qualidade do trabalho. Algo que pode fortalecer ainda mais sua atuação é explorar formas de ganhar mais agilidade em situações que exigem respostas rápidas. Isso pode ajudar a manter o ritmo das entregas e facilitar a adaptação em contextos mais dinâmicos.",
-  "Texto 7 aqui...",
-  "Texto 8 aqui...",
-  "Texto 9 aqui...",
-  "Texto 10 aqui...",
-  "Texto 11 aqui...",
-  "Texto 12 aqui...",
-  "Texto 13 aqui...",
-  "Texto 14 aqui...",
-  "Texto 15 aqui...",
-  "Texto 16 aqui...",
-  "Texto 17 aqui...",
-  "Texto 18 aqui...",
-  "Texto 19 aqui...",
-  "Texto 20 aqui...",
-  "Texto 21 aqui..."
+  "Tenho observado o quanto você é cuidadosa ao analisar cenários antes de tomar decisões, o que demonstra responsabilidade e comprometimento com a qualidade do trabalho. Algo que pode fortalecer ainda mais sua atuação é explorar formas de ganhar mais agilidade em situações que exigem respostas rápidas. Isso pode ajudar a manter o ritmo das entregas e facilitar a adaptação em contextos mais dinâmicos.",
+  "Estou à disposição para trocarmos ideias sobre estratégias que possam apoiar esse movimento. Conte comigo na sua jornada!",
+  "Ana percebe que ao receber o feedback com abertura e demonstrar interesse sincero, a percepção do outro pode revelar caminhos que ainda não haviam sido considerados. Ela reconhece o feedback como uma oportunidade valiosa de desenvolvimento, agradece e valoriza o tempo e a dedicação que Beto investiu para contribuir com seu crescimento.",
+  "Sentindo-se mais seguro, Beto aproveita o momento do one on one com Ana para solicitar um feedback sobre sua atuação no mesmo projeto: 'Ana, quais são suas contribuições sobre minha atuação no projeto que conduzimos juntos?'",
+  "Beto, sua capacidade de antecipar riscos e considerar o impacto do projeto como um todo foi essencial para o sucesso da iniciativa. Sua visão estratégica nos ajudou a evitar não apenas retrabalho, mas também atrasos no cronograma e possíveis desalinhamentos com outras áreas.",
+  "Os questionamentos que você trouxe durantes as agendas de trabalho contribuíram para decisões mais conscientes e para a qualidade final da entrega.",
+  "Continue fazendo esses questionamentos e nos guiando para entregas de qualidade!",
+  "Ao vivenciarem uma troca respeitosa e construtiva, Ana e Beto percebem o feedback como uma ferramenta poderosa de desenvolvimento. O feedback contínuo ajuda a fortalecer os comportamentos esperados e pontos positivos, incentiva a busca pelo desenvolvimento dos comportamentos e habilidades que apresentam oportunidades de melhoria, além de fortalecer vínculos de confiança e colaboração entre colegas.",
+  " ",
+  " ",
+  " ",
+  " ",
+  " ",
+  " ",
+  " ",
+  " "
 );
 
 let currentIndex = 0;
@@ -98,3 +98,4 @@ document.body.addEventListener('click', function handleFirstClick() {
   document.body.removeEventListener('click', handleFirstClick);
   document.body.addEventListener('click', showNextPanel);
 });
+
